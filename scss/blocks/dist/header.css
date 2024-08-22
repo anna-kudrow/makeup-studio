@@ -1,5 +1,6 @@
 .header {
   padding: 15px;
+  color: #363636;
 }
 
 .header__inner {
@@ -9,6 +10,25 @@
 .logo__link {
   display: flex;
   flex-direction: column;
+  color: #363636;
+}
+
+.logo-link__upper {
+  color: #363636;
+  font-family: "Forum", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logo-link__bottom {
+  font-family: "Forum", serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .instagram-link {
