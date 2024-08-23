@@ -1,4 +1,47 @@
 @import "../vars";
+
 .about {
   padding: 11px 14px 30px 64px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(236, 212, 250),
+    rgb(244, 214, 231)
+  );
+}
+
+.title {
+  font-family: "Caveat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $rouge;
+}
+
+.about__small-title {
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 120%;
+  &:first-of-type {
+    margin-bottom: 38px;
+  }
+  &:last-of-type {
+    margin-bottom: 28px;
+  }
+}
+
+.about__title {
+  margin-bottom: 15px;
+}
+
+.about__photo-box {
+  display: flex;
+  gap: 20px;
 }

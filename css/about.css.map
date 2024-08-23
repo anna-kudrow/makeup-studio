@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/blocks/about.scss","about.css"],"names":[],"mappings":"AACA;EACE,4BAAA;ACAF","file":"about.css"}
+{"version":3,"sources":["../scss/blocks/about.scss","about.css","../scss/vars.scss"],"names":[],"mappings":"AAEA;EACE,4BAAA;EACA,0FAAA;ACDF;;ADQA;EACE,qBAAA;EACA,eAAA;EACA,kBAAA;EACA,gBAAA;EACA,mBAAA;EACA,yBAAA;EACA,cEfM;ADUR;;ADQA;EACE,mBAAA;EACA,yBAAA;EACA,kBAAA;EACA,cAAA;ACLF;;ADQA;EACE,eAAA;EACA,iBAAA;ACLF;ADME;EACE,mBAAA;ACJJ;ADME;EACE,mBAAA;ACJJ;;ADQA;EACE,mBAAA;ACLF;;ADQA;EACE,aAAA;EACA,SAAA;ACLF","file":"about.css"}

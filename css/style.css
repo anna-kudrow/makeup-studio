@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Forum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   background-color: #f9f3f9;
   color: #583939;
@@ -206,4 +211,45 @@ a {
   font-style: normal;
   font-display: swap;
   src: url(../fonts/Involve-Medium.woff2) format("woff2");
+}
+.about {
+  padding: 11px 14px 30px 64px;
+  background-image: linear-gradient(to bottom right, rgb(236, 212, 250), rgb(244, 214, 231));
+}
+
+.title {
+  font-family: "Caveat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #b70114;
+}
+
+.about__small-title {
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 120%;
+}
+.about__text:first-of-type {
+  margin-bottom: 38px;
+}
+.about__text:last-of-type {
+  margin-bottom: 28px;
+}
+
+.about__title {
+  margin-bottom: 15px;
+}
+
+.about__photo-box {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
