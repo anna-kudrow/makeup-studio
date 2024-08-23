@@ -1,5 +1,11 @@
 .promo {
-  padding-top: 7px;
+  padding: 7px 7px 150px;
+}
+
+.promo__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .promo__grid {
@@ -92,4 +98,14 @@
     filter: blur(0);
     opacity: 1;
   }
+}
+.start-button {
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+  padding: 15px 68px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(95, 43, 106, 0.56) 5.07%, rgba(105, 54, 117, 0.57) 13.67%, rgba(115, 66, 130, 0.59) 23.17%, rgba(185, 147, 214, 0.7) 85.84%);
+  box-shadow: 1px 1px 4px 3px rgba(185, 147, 214, 0.9) inset;
+  border: transparent;
 }/*# sourceMappingURL=promo.css.map */
