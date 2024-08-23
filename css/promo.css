@@ -1,11 +1,11 @@
 .promo {
-  padding-top: 15px;
+  padding-top: 7px;
 }
 
 .promo__grid {
   display: grid;
   grid-template-columns: 129px 166px;
-  grid-template-rows: 85px 194px;
+  grid-template-rows: 91px 194px;
   justify-content: center;
   gap: 4px;
   margin-bottom: 25px;
@@ -14,6 +14,10 @@
 .promo__photo1-wrapper {
   grid-column: 2;
   grid-row: 1/3;
+}
+
+.promo__title-box {
+  position: relative;
 }
 
 .promo__title--rouge-color {
@@ -27,6 +31,18 @@
 
 .promo__title--brown-color {
   display: block;
+  font-family: "Dance";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.promo__title--brown-color:last-of-type {
+  margin-left: 21px;
+  position: absolute;
+  top: 40px;
+  left: 5px;
 }
 
 .promo__photo1-wrapper {
@@ -45,4 +61,35 @@
   height: 100%;
   background-image: url(../../images/promo-2.png);
   background-repeat: no-repeat;
+}
+
+.promo__title-name__wrapper {
+  position: relative;
+}
+
+.promo__title-name {
+  font-family: "Involve";
+  font-size: 20px;
+  line-height: normal;
+  color: #b70114;
+  position: absolute;
+  top: 12px;
+}
+
+.slide-in-blurred-bottom {
+  animation: slide-in-blurred-bottom 1.9s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+@keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(500px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=promo.css.map */
