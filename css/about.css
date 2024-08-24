@@ -23,6 +23,7 @@
 .about__text {
   font-size: 16px;
   line-height: 120%;
+  max-width: 815px;
 }
 .about__text:first-of-type {
   margin-bottom: 38px;
@@ -38,4 +39,8 @@
 .about__photo-box {
   display: flex;
   gap: 20px;
+}
+
+.about__photo-box img {
+  width: 100%;
 }/*# sourceMappingURL=about.css.map */

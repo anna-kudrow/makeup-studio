@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header {
   padding: 7px;
   color: #363636;
@@ -237,6 +241,7 @@ a {
 .about__text {
   font-size: 16px;
   line-height: 120%;
+  max-width: 815px;
 }
 .about__text:first-of-type {
   margin-bottom: 38px;
@@ -252,4 +257,17 @@ a {
 .about__photo-box {
   display: flex;
   gap: 20px;
+}
+
+.about__photo-box img {
+  width: 100%;
+}
+
+.portfolio {
+  padding: 75px 65px 60px;
+}
+
+.portfolio__title {
+  color: #583939;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
