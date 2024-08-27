@@ -8,11 +8,11 @@
   margin: 0 auto;
   max-width: 550px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 48% 48%;
-  grid-template-rows: 1.8fr 1fr;
-  gap: 4%;
-  justify-items: center;
+}
+
+.about__photo-box {
+  display: flex;
+  gap: 20px;
 }
 
 .title {

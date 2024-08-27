@@ -1,8 +1,12 @@
 .portfolio {
-  padding: 75px 65px 60px;
+  padding: 75px 100px 45px 65px;
 }
 
 .portfolio__title {
   color: #583939;
   margin-bottom: 10px;
+}
+
+.portfolio__cover-img img {
+  width: 100%;
 }/*# sourceMappingURL=portfolio.css.map */
