@@ -21,6 +21,16 @@ ul {
   list-style-type: none;
 }
 
+.title {
+  font-family: "Caveat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #b70114;
+}
+
 .header {
   padding: 7px;
   color: #363636;
@@ -233,16 +243,6 @@ ul {
   gap: 20px;
 }
 
-.title {
-  font-family: "Caveat";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  color: #b70114;
-}
-
 .about__small-title {
   line-height: normal;
   text-transform: uppercase;
@@ -282,10 +282,37 @@ ul {
 }
 
 .portfolio {
-  padding: 75px 100px 45px 65px;
+  padding: 75px 23% 35px 15%;
 }
 
 .portfolio__title {
   color: #583939;
   margin-bottom: 10px;
+}
+
+.portfolio__item {
+  max-width: 265px;
+}
+
+.portfolio____cover-img {
+  max-width: 265px;
+}
+
+.portfolio__cover-img img {
+  width: 100%;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.adv {
+  padding: 35px 3.5% 95px 15%;
+}
+
+.adv__title {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */

@@ -15,16 +15,6 @@
   gap: 20px;
 }
 
-.title {
-  font-family: "Caveat";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  color: #b70114;
-}
-
 .about__small-title {
   line-height: normal;
   text-transform: uppercase;
