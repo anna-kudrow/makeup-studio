@@ -7,3 +7,47 @@
 .adv__title{
     margin-bottom: 15px;
 }
+
+.adv__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adv__item{
+background: linear-gradient(157deg, rgba(238,199,252,1) 0%, rgba(187,184,227,1) 35%, rgba(243,233,253,1) 100%);
+border-radius: 4px;
+border: 0.8px solid rgba(208, 198, 246, 0.75);
+padding: 20px;
+box-sizing: border-box;
+max-width: 350px;
+height: 203px;
+}
+
+.adv__item-inner{
+    display: flex;
+}
+
+.avd__text-bigger{
+    font-size: 16px;
+}
+
+.adv__text{
+    font-size: 13px;
+line-height: normal;
+
+&:first-of-type{
+    margin-bottom: 12px;
+}
+}
+
+.adv__info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    list-style-type: disc;
+}
+
+.adv__info-item{
+    font-size: 14px;
+}

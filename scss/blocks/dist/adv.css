@@ -13,7 +13,7 @@
 }
 
 .adv__item {
-  background: linear-gradient(157deg, rgb(238, 199, 252) 0%, rgb(187, 184, 227) 35%, rgb(243, 233, 253) 100%);
+  background: linear-gradient(157deg, #eec7fc 0%, #bbb8e3 35%, #f3e9fd 100%);
   border-radius: 4px;
   border: 0.8px solid rgba(208, 198, 246, 0.75);
   padding: 20px;
@@ -47,4 +47,4 @@
 
 .adv__info-item {
   font-size: 14px;
-}/*# sourceMappingURL=adv.css.map */
+}
