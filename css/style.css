@@ -32,7 +32,8 @@ ul {
 }
 
 .header {
-  padding: 7px;
+  padding: 15px;
+  height: 5vh;
   color: #363636;
 }
 
@@ -44,14 +45,14 @@ ul {
 
 .header__contacts {
   display: flex;
-  gap: 7px;
+  gap: 15px;
   align-items: center;
 }
 
 .header__right-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .logo__link {
@@ -80,9 +81,11 @@ ul {
 
 .instagram-link {
   display: block;
-  width: 22px;
-  height: 22px;
-  background-image: url("../images/insta.svg");
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/insta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .phone-num {
@@ -102,6 +105,7 @@ ul {
 
 .promo {
   padding: 7px 7px 150px;
+  height: 95vh;
 }
 
 .promo__inner {

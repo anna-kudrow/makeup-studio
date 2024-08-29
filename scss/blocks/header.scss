@@ -1,7 +1,8 @@
 @import "../vars.scss";
 
 .header {
-  padding: 7px;
+  padding: 15px;
+  height: 5vh;
   color: $head-text;
 }
 
@@ -13,14 +14,14 @@
 
 .header__contacts {
   display: flex;
-  gap: 7px;
+  gap: 15px;
   align-items: center;
 }
 
 .header__right-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .logo__link {
@@ -48,10 +49,12 @@
 }
 
 .instagram-link {
-  display: block;
-  width: 22px;
-  height: 22px;
-  background-image: url("../images/insta.svg");
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/insta.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .phone-num {
@@ -64,7 +67,9 @@
 }
 
 .header__menu {
-  width: 15px;
-  height: 15px;
-  background-image: url("../images/burger.svg");
+     width: 25px;
+    height: 25px;
+    background-image: url(../images/burger.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
