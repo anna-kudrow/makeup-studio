@@ -1,6 +1,7 @@
 .promo {
-  padding: 7px 7px 150px;
+  padding: 55px 10px 0;
   height: 95vh;
+  box-sizing: border-box;
 }
 
 .promo__inner {
@@ -12,10 +13,10 @@
 .promo__grid {
   display: grid;
   grid-template-columns: 129px 166px;
-  grid-template-rows: 91px 194px;
+  grid-template-rows: 110px 194px;
   justify-content: center;
   gap: 4px;
-  margin-bottom: 25px;
+  margin-bottom: 75px;
 }
 
 .promo__photo1-wrapper {
@@ -47,7 +48,7 @@
 .promo__title--rouge-color {
   font-family: "Caveat", cursive;
   color: #b70114;
-  font-size: 20px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -56,14 +57,14 @@
 .promo__title--brown-color {
   display: block;
   font-family: "Dance";
-  font-size: 20px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .promo__title--brown-color:last-of-type {
-  margin-left: 21px;
+  margin-left: 22px;
   position: absolute;
   top: 40px;
   left: 5px;
