@@ -87,18 +87,46 @@
 }
 
 .slide-in-blurred-bottom {
+  -webkit-animation: slide-in-blurred-bottom 2.2s cubic-bezier(0.23, 1, 0.32, 1) both;
   animation: slide-in-blurred-bottom 2.2s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
-@keyframes slide-in-blurred-bottom {
+
+@-webkit-keyframes slide-in-blurred-bottom {
   0% {
+    -webkit-transform: translateY(500px) scaleY(2.5) scaleX(0.2);
     transform: translateY(500px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
     filter: blur(40px);
     opacity: 0;
   }
   100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
     transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(500px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(500px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
   }
@@ -112,4 +140,4 @@
   background: linear-gradient(90deg, rgba(95, 43, 106, 0.56) 5.07%, rgba(105, 54, 117, 0.57) 13.67%, rgba(115, 66, 130, 0.59) 23.17%, rgba(185, 147, 214, 0.7) 85.84%);
   box-shadow: 1px 1px 4px 3px rgba(185, 147, 214, 0.9) inset;
   border: transparent;
-}/*# sourceMappingURL=promo.css.map */
+}
