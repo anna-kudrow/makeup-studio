@@ -19,14 +19,15 @@
   padding: 20px;
   box-sizing: border-box;
   max-width: 350px;
-  height: 203px;
+  min-height: 203px;
 }
 
 .adv__item-inner {
   display: flex;
+  justify-content: space-between;
 }
 
-.avd__text-bigger {
+.adv__text-bigger {
   font-size: 16px;
 }
 
@@ -47,4 +48,22 @@
 
 .adv__info-item {
   font-size: 14px;
+}
+
+.adv__item-photo img {
+  border-radius: 4px;
+}
+
+.adv__item:nth-child(3) .adv__item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.adv__button {
+  border-radius: 20px;
+  background-color: rgba(54, 54, 54, 0.08);
+  box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.4);
+  border: transparent;
+  color: #583939;
 }

@@ -1,12 +1,6 @@
-@import "../vars";
-
 .about {
   padding: 11px 14px 30px 64px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(236, 212, 250),
-    rgb(244, 214, 231)
-  );
+  background-image: linear-gradient(to bottom right, #ecd4fa, #f4d6e7);
 }
 
 .about__inner {
@@ -32,12 +26,12 @@
   font-size: 16px;
   line-height: 120%;
   max-width: 815px;
-  &:first-of-type {
-    margin-bottom: 38px;
-  }
-  &:last-of-type {
-    margin-bottom: 28px;
-  }
+}
+.about__text:first-of-type {
+  margin-bottom: 38px;
+}
+.about__text:last-of-type {
+  margin-bottom: 28px;
 }
 
 .about__title {
