@@ -47,7 +47,7 @@
 }
 
 .adv__info-item {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .adv__item-photo img {
@@ -66,4 +66,15 @@
   box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.4);
   border: transparent;
   color: #583939;
+  font-size: 11px;
+  line-height: normal;
+  padding: 10px;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.adv__car-icon {
+  width: 30px;
+  height: 35px;
+  background-image: url(../../images/car.svg);
 }/*# sourceMappingURL=adv.css.map */

@@ -50,7 +50,7 @@ min-height: 203px;
 }
 
 .adv__info-item{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .adv__item-photo img{
@@ -60,7 +60,7 @@ min-height: 203px;
 .adv__item:nth-child(3) .adv__item-info{
     display: flex;
     flex-direction: column;
-    justify-content:    space-around;
+    justify-content: space-around;
 }
 
 .adv__button{
@@ -69,4 +69,15 @@ min-height: 203px;
     box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.40);
     border: transparent;
     color: $main-text;
+    font-size: 11px;
+    line-height: normal;
+    padding: 10px;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.adv__car-icon{
+    width: 30px;
+    height: 35px;
+    background-image: url(../../images/car.svg);
 }
