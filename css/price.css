@@ -60,6 +60,7 @@
   box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.4);
   width: 90%;
   border: transparent;
+  cursor: pointer;
 }
 .price__button::after {
   content: url(../../images/Arrow.svg);
